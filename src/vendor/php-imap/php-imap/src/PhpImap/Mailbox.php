@@ -165,7 +165,7 @@ class Mailbox
     /**
      * @throws InvalidParameterException
      */
-    public function __construct(string $imapPath, string $login, string $password, string $attachmentsDir = null, string $serverEncoding = 'UTF-8', bool $trimImapPath = true, bool $attachmentFilenameMode = false)
+    public function __construct(string $imapPath, string $login, string $password, string $attachmentsDir = null, string $serverEncoding = 'US-ASCII', bool $trimImapPath = true, bool $attachmentFilenameMode = false)
     {
         $this->imapPath = (true == $trimImapPath) ? \trim($imapPath) : $imapPath;
         $this->imapLogin = \trim($login);

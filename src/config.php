@@ -18,7 +18,8 @@ error_reporting(E_ALL);
 
 // Change IMAP settings (check SSL flags on http://php.net/manual/en/function.imap-open.php)king00binz@gmail.com
 $config['imap']['url'] = '{outlook.office365.com:993/imap/ssl}INBOX';
-$config['imap']['username'] = "disp0s0@outlook.com";
+//$config['imap']['username'] = "disp0s0@outlook.com";
+$config['imap']['username'] = "v0v0-temp@outlook.com";
 $config['imap']['password'] = "baba123A*";
 
 // For gmail you can use '{imap.gmail.com:993/imap/ssl}INBOX'
@@ -26,7 +27,7 @@ $config['imap']['password'] = "baba123A*";
 // https://stackoverflow.com/a/25238515/79461
 
 // email domains, usually different from imap hostname:
-$config['domains'] = array('r0b-in.nl.eu.org');
+$config['domains'] = array('blue-vovo.nl.eu.org');
 
 // When to delete old messages?
 $config['delete_messages_older_than'] = '30 days ago';
